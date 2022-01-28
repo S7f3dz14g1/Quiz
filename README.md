@@ -10,4 +10,4 @@ Use the command `npm install` to install all dependencies.
 
 Next run watch server using `npx -w`.
 
-Then open this `http://localhost:1234` link.
+Then open this `http://localhost:5050` link.

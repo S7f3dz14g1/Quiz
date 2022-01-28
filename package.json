@@ -1,0 +1,25 @@
+{
+  "name": "ts_html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.2"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S7f3dz14g1/Quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/S7f3dz14g1/Quiz/issues"
+  },
+  "homepage": "https://github.com/S7f3dz14g1/Quiz#readme"
+}

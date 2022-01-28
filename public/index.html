@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="body">
+    <div>
+      <h1 id="title"></h1>
+      <p id="descryption"></p>
+      <button id="startBtn">Rozpocznij</button>
+      <hr>
+    </div>
+
+    <div>
+      <h3 id="numberOfQuestion"></h3>
+      <div class="question">
+        <p id="questionText"></p>
+        <input id="input" type="number">
+        <p id="time"></p>
+      </div>
+      <div class="questionButtons">
+        <button id="backBtn">Poprzednie</button>
+        <button id="nextBtn">Następne</button>
+        <button id="finishBtn">Zakończ</button>
+      </div>
+    </div>
+    <hr>
+    <div class="results">
+      <h1 id="resultQuizText">Wynik quizu </h1>
+      <table id="table">
+      </table>
+    </div>
+
+  </div>
+
+  <script type="module" src="./app.js"></script>
+
+</body>
+
+</html>
